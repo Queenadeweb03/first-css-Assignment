@@ -1,0 +1,16 @@
+.first-section h1:first-child {
+       color: rgb(220, 48, 76);
+}
+.first-section p:nth-child(2) {
+    font-style: italic;
+}
+.second-section p::first-line {
+     font-size: 200px;
+}
+
+.second-section {
+    display: none;
+}
+.first-section:hover + .second-section {
+    display: block;
+}
